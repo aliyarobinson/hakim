@@ -1,0 +1,175 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* 
+
+  Fonts
+
+*/
+
+@font-face {
+  font-family: 'Stackicons-Social';
+  src: url("fonts/Stackicons/Stackicons-Social.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Stackicons/Stackicons-Social.eot?#iefix") format("embedded-opentype"), url("../fonts/Stackicons/Stackicons-Social.woff") format("woff"), url("fonts/Stackicons/Stackicons-Social.ttf") format("truetype"), url("fonts/Stackicons/Stackicons-Social.svg#76cc4077294aa89eeb6c5fa684bb9048") format("svg");
+  /* Legacy iOS */
+  font-style: normal !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  speak: none;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato/lato-black-webfont.eot');
+    src: url('../fonts/Lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-black-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-black-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato/lato-bold-webfont.eot');
+    src: url('../fonts/Lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato/lato-light-webfont.eot');
+    src: url('../fonts/Lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-light-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato/lato-regular-webfont.eot');
+    src: url('../fonts/Lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+/* 
+
+  General Styles
+
+*/
+
+body {
+  font: 16px 'lato', arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.st-icon, [class^="st-icon-"] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  position: relative;
+  margin: 0 -.16em 0 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: .143em;
+  height: 1.45788em;
+  width: 1.45788em;
+  font-size: 1.815em;
+  text-align: left;
+  text-indent: -9999px;
+  zoom: 1;
+}
+
+
+
+a { color: inherit; text-decoration: none; font-weight: bold;}
+
+h1 {color: #f5aa00; font-weight: 200; margin-top: 1em;}
+
+.social span {
+  font-family: 'Stackicons-Social' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
