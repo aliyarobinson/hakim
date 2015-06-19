@@ -275,12 +275,20 @@ button {
   width: 100%;
   background: #3f3c38;
   overflow: hidden;
+  color: ;
+}
+
+.site-footer h3 {
+  color: #ebebeb;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 0 10px;
 }
 
 .site-footer .flickr {
   float: left;
   width: 65%;
-  padding: 40px;
+  padding: 0 40px;
 }
 
 .site-footer .flickr .thumb {
@@ -288,6 +296,29 @@ button {
   margin: 0 0 20px 20px;
 }
 
+.site-footer .twitter {
+  width: 33%;
+  float: right;
+}
+
+.site-footer .twitter .tweet {
+  color: #ebebeb;
+  margin: 20px 0;
+}
+
+.site-footer .twitter .tweet:first-child {
+  margin-top: 0;
+}
+
+.site-footer .twitter .tweet cite{
+  display: block;
+  font-size: 600;
+  margin: 0 0 10px;
+}
+
+.site-footer .twitter .tweet .quote{
+  display: block;
+}
 
 
 
