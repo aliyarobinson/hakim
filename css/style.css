@@ -159,6 +159,8 @@ a {
   color: inherit; 
   text-decoration: none;
   font-weight: 100;
+  outline: none;
+  outline-color: transparent;
 }
 
 button {
@@ -166,6 +168,8 @@ button {
   padding: 0;
   background: transparent;
   cursor: pointer;
+  outline: none;
+  outline-color: transparent;
 }
 
 
@@ -205,6 +209,7 @@ button {
   float: left;
   border-top: 6px solid transparent;
   margin-right: 20px;
+  padding: 6px 0 0;
 }
 
 .site-header nav ul li.active,
@@ -263,6 +268,97 @@ button {
 }
 
 
+
+
+/*******************************
+
+  Work Styles
+
+*******************************/
+
+.work {
+  padding: 50px 0;
+}
+
+.work .pieces {
+  overflow: hidden;
+  margin: 0 0 -50px -50px;
+}
+
+.work .piece {
+  width: 30%;
+  float: left;
+  height: 185px;
+  margin: 0 0 50px 50px;
+  max-width: 298px;
+  position: relative;
+ /* -webkit-box-shadow: 0px 0px 46px 0px rgba(54,54,54,0.48);
+  -moz-box-shadow: 0px 0px 46px 0px rgba(54,54,54,0.48);
+  box-shadow: 0px 0px 46px 0px rgba(54,54,54,0.48);*/
+}
+
+.work .piece button {
+  width: 100%;
+  height: 100%;
+}
+
+.work .piece button .title-wrapper {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: #ebebeb;
+  width: 100%;
+  height: 100%;
+  display: table;
+  border: 6px solid #bebdbc;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -ms-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+.work .piece .title {
+  display: table-cell;
+  font-size: 30px;
+  padding: 0 30px;
+  vertical-align: middle;
+ 
+}
+
+.work .piece button:hover .title-wrapper {
+  opacity: 1;
+}
+
+.work .more {
+  clear: both;
+  float: right;
+  font-size: 20px;
+  border: solid 6px #bebdbc;
+  color: #ebebeb;
+  background: #3f3c38;
+  padding: 5px 10px;
+  margin: 20px 0 50px;
+}
+
+
+#square {
+    width: 10px;
+    height: 10px;
+    margin: 100px; /*for centering purposes*/
+    float: left;
+    background: blue;
+    -webkit-transition: width 1s, height 1s, margin 1s;
+    -moz-transition: width 1s, height 1s, margin 1s;
+    -ms-transition: width 1s, height 1s, margin 1s;
+    transition: width 1s, height 1s, margin 1s;
+}
+#square:hover {
+    width: 100px;
+    height: 100px;
+    margin: 55px; /* inital margin - ((intial margin - width (or height))/2) */
+}
 
 
 /*******************************
