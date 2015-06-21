@@ -360,6 +360,52 @@ button {
     margin: 55px; /* inital margin - ((intial margin - width (or height))/2) */
 }
 
+.bio {
+  padding: 50px;
+}
+
+.bio .bio-text {
+  width: 30%;
+  float: left;
+}
+
+.bio .image-wrapper {
+  width: 60%;
+  float: right;
+  max-width: 650px;
+}
+
+.bio p {
+  margin: 0 0 20px;
+}
+
+/*******************************
+
+  Consulting Styles
+
+*******************************/
+.consulting {
+  padding: 50px;
+}
+
+.consulting h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.consulting p {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+
+
+
+
+
+
 
 /*******************************
 
